@@ -40,3 +40,20 @@ colnames(Animals2)
 # 4. Animales comunes en ambos conjuntos
 commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 commonAnimals
+
+
+#e
+# 5. Averiguar qué animales no están en ambos conjuntos
+
+# Extraemos los que están en un conjunto pero no en el otro
+solo_mammals <- setdiff(rownames(mammals), rownames(Animals2))
+solo_animals2 <- setdiff(rownames(Animals2), rownames(mammals))
+
+# Unimos ambos grupos para tener todos los animales no comunes
+no_comunes <- c(solo_mammals, solo_animals2)
+
+# ¿Cuántos son en total?
+length(no_comunes)
+
+# Mostramos los animales para ver qué tipo son
+no_comunes
