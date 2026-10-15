@@ -34,3 +34,9 @@ colnames(mammals)
 
 rownames(Animals2)
 colnames(Animals2)
+
+
+#d
+# 4. Animales comunes en ambos conjuntos
+commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
+commonAnimals
