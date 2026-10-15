@@ -1,6 +1,6 @@
 ---
 title: "SolucionEjercicio"
-author: "Héctor"
+author: "Héctor García Díez"
 date: "2026-10-15"
 output: html_document
 ---
