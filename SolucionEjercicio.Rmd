@@ -57,3 +57,15 @@ length(no_comunes)
 
 # Mostramos los animales para ver qué tipo son
 no_comunes
+
+
+#f
+# 6. Determinar las diferencias entre los animales que no aparecen en ambos conjuntos
+
+# Mostramos cuáles son exclusivos del conjunto mammals
+cat("Animales exclusivos del conjunto mammals (no están en Animals2):\n")
+print(solo_mammals)
+
+# Mostramos cuáles son exclusivos del conjunto Animals2
+cat("\nAnimales exclusivos del conjunto Animals2 (no están en mammals):\n")
+print(solo_animals2)
