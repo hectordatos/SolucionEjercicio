@@ -1,0 +1,6 @@
+---
+title: "SolucionEjercicio"
+author: "Héctor"
+date: "2026-10-15"
+output: html_document
+---
