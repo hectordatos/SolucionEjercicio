@@ -4,7 +4,7 @@ author: "Héctor García Díez"
 date: "2026-10-15"
 output: html_document
 ---
-# Tercer commit
+#a
 # Cargar los paquetes necesarios
 library(MASS)
 library(robustbase)
@@ -13,3 +13,15 @@ library(robustbase)
 ?mammals
 ?Animals2
 
+#b
+# 2. Exploración básica de mammals
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+# Exploración básica de Animals2
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
