@@ -4,3 +4,12 @@ author: "Héctor García Díez"
 date: "2026-10-15"
 output: html_document
 ---
+# Tercer commit
+# Cargar los paquetes necesarios
+library(MASS)
+library(robustbase)
+
+# 1. Mirar las características usando la ayuda
+?mammals
+?Animals2
+
